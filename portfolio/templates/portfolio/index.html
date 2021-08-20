@@ -1,0 +1,230 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+
+	<link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+</head>
+<body>
+     <main class="main-content">
+        <section class="left-section">
+            <div class="left-content">
+                <div class="profile">
+                    <div class="image">
+                        <img src="{% static 'images/logo.jpg'%}" alt="myprofile">
+                    </div>
+                    <h2 class="name">Favour Ukasoanya</h2>
+                    <p class="career">Python Developer | Machine Learning Engineer</p>
+                </div>
+                <div class="contact-info">
+                    <h3 class="main-title">Contact Info</h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            09032180397
+                        </li>
+                        <li>
+                            <i class="fa fa-fax"></i>
+                            ukasoanyafavour6@gmail.com
+                        </li>
+                        <li>
+                            <i class="fa fa-facebook"></i>
+                            www.facebook.com/favour.ukasoanya.5
+                        </li>
+                        <li>
+                            <i class="fa fa-instagram"></i>
+                            @pharvy_u
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker"></i>
+                            Lagos, Nigeria.
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills-section">
+                    <h3 class="main-title">Skills</h3>
+
+                    <ul>
+
+                        <li>
+                            <p class="skill-title">MATLAB</p>
+                            <div class="progress-bar">
+                                <div class="progress i-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Java</p>
+                            <div class="progress-bar">
+                                <div class="progress j-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Django</p>
+                            <div class="progress-bar">
+                                <div class="progress ht-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Python</p>
+                            <div class="progress-bar">
+                                <div class="progress i-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Data Science</p>
+                            <div class="progress-bar">
+                                <div class="progress ht-progress"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="btn">
+                        <a href="{% static '/PDF/resume.pdf' %}" className="btn" download>Download Resume </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+        <section class="right-section">
+            <div class="right-main-content">
+                <section class="about sect">
+                    <h2 class="right-title">Meet Me</h2>
+                    <p class="para">
+                        Building efficient systems to surpass user requirement and maximise productivity. <br>
+                        <br>
+                        I am an analytical minded individual with good communication skills, and a good team player.
+						I have a passion for learning new things, developing new systems, improving on existing systems
+						as well as generating new ideas in solving problems. My professional objective is to make a
+						positive impact on the world through the application of Machine Learning
+                    </p>
+                </section>
+
+                <section class="experince sect">
+                    <h2 class="right-title">Experience</h2>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Personal Project</h5>
+                            <p class="para">March 2021 - Till Date</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Automatic Vehicle License Plate Recognition System</h5>
+                                <p class="para">
+                                    I worked within a team to explore the possibilities of deep learning by designing a
+									real time automatic vehicle plate detection and recognition system
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Federal Airports Authority of Nigeria</h5>
+                            <p class="para">July 2019 - Jan 2020</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Intern</h5>
+                                <p class="para">
+									Worked with a team to generate and transmit electrical power throughout the Murtala Mohammed
+									International Airport and its surrounding vicinity. Maintenance of power generation and transmission
+									equipment was also involved.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">3 Point Autotech</h5>
+                            <p class="para">2018 - 2019</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Maintenance Engineer</h5>
+                                <p class="para">
+                                    I worked within a team of engineers to scan vehicles for faults using the
+									On-Board_diagnostics Scanner and assign work description
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="education sect">
+                    <h2 class="right-title">Education</h2>
+					<div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Linkedin</h5>
+                            <p class="para">2020</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2"><B class="ENG"></B></h5>
+                                <p class="para">
+                                 Programming Foundations: Databases
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Federal University Of Technology Owerri (FUTO)</h5>
+                            <p class="para">2015 - 2020</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2"><B class="ENG"></B></h5>
+                                <p class="para">
+                                 B.ENG earned in Mechatronics Engineering.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Google</h5>
+                            <p class="para">2019</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Android development basics: Kotlin</h5>
+                                <p class="para">
+                                    Basic android application functionality.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+	<section class="s2">
+		<div class="main-container">
+			<a href=""></a>
+			<h2 style="text-align: center;">Get In Touch</h2>
+
+			<form id="contact-form" method="POST" action="/send_email/">
+				{% csrf_token %}
+				<a name="contact"></a>
+				<label>Name</label>
+				<input required class="input-field" type="text" name="name">
+
+				<label>Subject</label>
+				<input required class="input-field" type="text" name="subject">
+
+				<label>Email</label>
+				<input required class="input-field" type="text" name="email">
+
+				<label>Message</label>
+				<textarea required class="input-field" name="message"></textarea>
+
+
+				<input id="submit-btn" type="submit" value="Send">
+			</form>
+		</div>
+	</section>
+</body>
+</html>
